@@ -97,12 +97,17 @@ body.dark-mode h2 {
     gap: 12px;
 }
 
-.logo-card{
+.logo-card {
+    width: 40px;
+    height: 60px;
+    background: linear-gradient(135deg, var(--primary), #764ba2);
+    border-radius: 8px;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
-    animation: rotate 7s infinite;
+    box-shadow: 0 4px 15px rgba(32, 32, 36, 0.4);
+    animation: float 7s ease-in-out infinite;
 }
 
 @keyframes rotate {
@@ -2240,4 +2245,5 @@ body.dark-mode .info-details p {
     .info-details h3 {
         font-size: 16px;
     }
+
 }
